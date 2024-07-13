@@ -25,8 +25,16 @@
     }
 
     .hero .hero-content {
-        padding-top: 50%;
+        /* padding-top: 50%; */
+        padding-top: 70%;
+        /* padding-top: 94%; */
     }
+
+    .hero {
+        background: url("../img/hero-min.jpeg") calc(50% - 130px) center;
+        background-size:auto;
+        min-height: 750px;
+      }
 
     .header-nav {
         position: fixed;
@@ -254,7 +262,9 @@
 
 @media screen and (max-width: 640px) {
     .hero .hero-content {
-        padding-top: 100%;
+        /* padding-top: 100%; */
+        /* padding-top: 138%; */
+        padding-top: 138%;
     }
 
     #eng-pics .img-wrap i {
@@ -294,6 +304,8 @@
 @media screen and (max-width: 480px) {
     .hero .hero-content {
         padding-top: 110%;
+        /* padding-top: 110%; */
+        /* padding-top: 210%; */
     }
     
     .hero .hero-content img {
@@ -357,7 +369,9 @@
 
 @media screen and (max-width: 320px) {
     .hero .hero-content {
-        padding-top: 130%;
+        /* padding-top: 130%; */
+        /* padding-top: 230%; */
+        padding-top: 250%;
     }
 
     .rsvp {
